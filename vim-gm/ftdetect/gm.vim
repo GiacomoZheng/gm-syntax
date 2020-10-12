@@ -1,0 +1,1 @@
+au BufRead,BufNewFile *.gm set filetype=gm

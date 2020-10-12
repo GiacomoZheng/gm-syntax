@@ -1,0 +1,3 @@
+[submodule "vscode-gm"]
+	path = vscode-gm
+	url = https://github.com/GiacomoZheng/vscode-gm.git

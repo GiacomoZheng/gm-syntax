@@ -1,2 +1,2 @@
 # gm-syntax
-gm syntax by Pygments, Textmate-json, nano, vim (TODO)
+gm syntax by Pygments, vscode (Textmate-json), nano, vim (TODO)
