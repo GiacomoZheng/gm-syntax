@@ -6,69 +6,53 @@
 TOML = hs.loadSpoon("toml")
 HT = hs.loadSpoon("HammerText")
 HT.keywords = TOML.parse([[
-"female/." = "♀"
-# the female must be in front of male
-"male/." = "♂"
+# 数学符号
+"in/." = "∈"
+"in\\." = "∋"
+"subseteq/." = "⊆"
+"subset/." = "⊂"
+"supseteq/." = "⊇"
+"supset/." = "⊃"
 
-"Sun/." = "☉"
-"Mercury/." = "☿"
-"Venus/." = "♀"
-"Earth/." = "♁"
-"Moon/." = "☾"
-"Mars/." = "♂"
-"Jupiter/." = "♃"
-"Saturn/." = "♄"
-"Uranus/." = "⛢"
-"Neptune/." = "♆"
+# option L --> ¬
+# option 8 --> •
+# option 5 --> ∞
+# option < --> ≤
+# option > --> ≥
+# option = --> ≠
+# option shift + --> ±
+# option d --> ∂
+# option b --> ∫
+
+"~</." = "≺"
+"~>/." = "≻"
+"~≤/." = "≼" # only for mac
+"~≥/." = "≽" # only for mac
+"~=" = "≌"
+
+"=>/." = "⇒"
+"<=/." = "⇐"
+"<=>/."	= "⇔"
+"->/." = "→"
+"<-/." = "←"
+"<->/." = "↔"
+"|->/." = "↦"
+"<-|/." = "↤"
+
+"||/." = "‖"
 
 _comment1 = """
 ; 右ctrl +
-	; >^1::Send,¬ ; define it together with ∀∃
-	>^4::Send,↔
-	+>^4::Send,⇔
-
-	>^5::Send,∈
-	+>^5::Send,∋
-	>^6::Send,⊆
-	+>^6::Send,⊂
-	>^7::Send,⊇
-	+>^7::Send,⊃
-
-	>^8::Send,∞
-	; ? I may delete it
-
-	+>^8::Send,•
-
 	>^0::Send,∅
 
 	>^-::Send,¯
 
 	>^.::Send,̇
 	:*?:...	::…
-
-	:*?:~<	::≺
-	:*?:~>	::≻
-	:*?:~<=	::≼
-	:*?:~>=	::≽
-	:*?:<=	::≤
-	:*?:>=	::≥
-		+>^,::Send,≤
-		+>^.::Send,≥
-		; >^>!,::Send,≺
-		; >^>!.::Send,≻
-		; +>^>!,::Send,≼
-		; +>^>!.::Send,≽
-
-	:*?:!=	::≠
-	; ∉
-
-	:*?:~=	::≌
 	
-	;
 	>^a::Send,∀
 	>^e::Send,∃
 	>^1::Send,¬
-		:*?:not	::¬ ; ? I'm not sure
 
 	+>^a::Send,∧  ; wedge product / smash product
 	+>^v::Send,∨  ; wedge sum
@@ -81,9 +65,6 @@ _comment1 = """
 	>^m::Send,■
 	+>^m::Send,□
 
-	>^s::Send,∫
-	>^d::Send,∂
-
 	>^o::Send,∘
 
 	+>^o::Send,◉
@@ -92,24 +73,6 @@ _comment1 = """
 
 	>^x::Send,×
 	+>^x::Send,⊗
-
-	; ↢↣
-	>^!right::Send,↦
-	>^!left::Send,↤
-
-	>^right::Send,→
-		:*?:->	::→
-	>^left::Send,←
-		:*?:<-	::←
-	:*?:<->	::↔
-
-	+>^left::Send,⇐
-	+>^right::Send,⇒
-	:*?:<=>	::⇔
-
-	; brackets
-	:*?:||	::‖
-
 ;
 """
 
@@ -148,7 +111,7 @@ _comment1 = """
 "aleph/." = "א" # 亦写作
 "alef/." = "א"
 
-# 双线字体
+# 双线字体, lua 会报错大部分
 "aa/." = "𝕒"
 "bb/." = "𝕓"
 "cc/." = "𝕔"
@@ -203,565 +166,165 @@ _comment1 = """
 "YY/." = "𝕐"
 "ZZ/." = "ℤ"
 
+# 手写体 mathcal &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+"A/.c" = "𝒜"
+"a/.c" = "𝒶"
+
+"B/.c" = "ℬ"
+"b/.c" = "𝒷"
+
+"C/.c" = "𝒞"
+"c/.c" = "𝒸"
+
+"D/.c" = "𝒟"
+"d/.c" = "𝒹"
+
+"E/.c" = "ℰ"
+"e/.c" = "ℯ"
+
+"F/.c" = "ℱ"
+"f/.c" = "𝒻"
+
+"G/.c" = "𝒢"
+"g/.c" = "ℊ"
+
+"H/.c" = "ℋ"
+"h/.c" = "𝒽"
+
+"I/.c" = "ℐ"
+"i/.c" = "𝒾"
+
+"J/.c" = "𝒥"
+"j/.c" = "𝒿"
+
+"K/.c" = "𝒦"
+"k/.c" = "𝓀"
+
+"L/.c" = "ℒ"
+"l/.c" = "𝓁"
+
+"M/.c" = "ℳ"
+"m/.c" = "𝓂"
+
+"N/.c" = "𝒩"
+"n/.c" = "𝓃"
+
+"O/.c" = "𝒪"
+"o/.c" = "ℴ"
+
+"P/.c" = "𝒫"
+"p/.c" = "𝓅"
+
+"Q/.c" = "𝒬"
+"q/.c" = "𝓆"
+
+"R/.c" = "ℛ"
+"r/.c" = "𝓇"
+
+"S/.c" = "𝒮"
+"s/.c" = "𝓈"
+
+"T/.c" = "𝒯"
+"t/.c" = "𝓉"
+
+"U/.c" = "𝒰"
+"u/.c" = "𝓊"
+
+"V/.c" = "𝒱"
+"v/.c" = "𝓋"
+
+"W/.c" = "𝒲"
+"w/.c" = "𝓌"
+
+"X/.c" = "𝒳"
+"x/.c" = "𝓍"
+
+"Y/.c" = "𝒴"
+"y/.c" = "𝓎"
+
+"Z/.c" = "𝒵"
+"z/.c" = "𝓏"
+
+# 花体 mathfrak &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+"A/.f" = "𝔄"
+"a/.f" = "𝔞"
+
+"B/.f" = "𝔅"
+"b/.f" = "𝔟"
+
+"C/.f" = "ℭ"
+"c/.f" = "𝔠"
+
+"D/.f" = "𝔇"
+"d/.f" = "𝔡"
+
+"E/.f" = "𝔈"
+"e/.f" = "𝔢"
+
+"F/.f" = "𝔉"
+"f/.f" = "𝔣"
+
+"G/.f" = "𝔊"
+"g/.f" = "𝔤"
+
+"H/.f" = "ℌ"
+"h/.f" = "𝔥"
+
+"I/.f" = "ℑ"
+"i/.f" = "𝔦"
+
+"J/.f" = "𝔍"
+"j/.f" = "𝔧"
+
+"K/.f" = "𝔎"
+"k/.f" = "𝔨"
+
+"L/.f" = "𝔏"
+"l/.f" = "𝔩"
+
+"M/.f" = "𝔐"
+"m/.f" = "𝔪"
+
+"N/.f" = "𝔑"
+"n/.f" = "𝔫"
+
+"O/.f" = "𝔒"
+"o/.f" = "𝔬"
+
+"P/.f" = "𝔓"
+"p/.f" = "𝔭"
+
+"Q/.f" = "𝔔"
+"q/.f" = "𝔮"
+
+"R/.f" = "ℜ"
+"r/.f" = "𝔯"
+
+"S/.f" = "𝔖"
+"s/.f" = "𝔰"
+
+"T/.f" = "𝔗"
+"t/.f" = "𝔱"
+
+"U/.f" = "𝔘"
+"u/.f" = "𝔲"
+
+"V/.f" = "𝔙"
+"v/.f" = "𝔳"
+
+"W/.f" = "𝔚"
+"w/.f" = "𝔴"
+
+"X/.f" = "𝔛"
+"x/.f" = "𝔵"
+
+"Y/.f" = "𝔜"
+"y/.f" = "𝔶"
+
+"Z/.f" = "ℨ"
+"z/.f" = "𝔷"
+
 _comment2 = """
-# 手写体 &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
-	CapsLock & a::
-	If Caps_state = D
-		Send,𝒜
-	Else
-		Send,𝒶
-	Return
-
-	CapsLock & b::
-	If Caps_state = D
-		Send,ℬ
-	Else
-		Send,𝒷
-	Return
-
-	CapsLock & c::
-	If Caps_state = D
-		Send,𝒞
-	Else
-		Send,𝒸
-	Return
-
-	CapsLock & d::
-	If Caps_state = D
-		Send,𝒟
-	Else
-		Send,𝒹
-	Return
-
-	CapsLock & e::
-	If Caps_state = D
-		Send,ℰ
-	Else
-		Send,ℯ
-	Return
-
-	CapsLock & f::
-	If Caps_state = D
-		Send,ℱ
-	Else
-		Send,𝒻
-	Return
-
-	CapsLock & g::
-	If Caps_state = D
-		Send,𝒢
-	Else
-		Send,ℊ
-	Return
-
-	CapsLock & h::
-	If Caps_state = D
-		Send,ℋ
-	Else
-		Send,𝒽
-	Return
-
-	CapsLock & i::
-	If Caps_state = D
-		Send,ℐ
-	Else
-		Send,𝒾
-	Return
-
-	CapsLock & j::
-	If Caps_state = D
-		Send,𝒥
-	Else
-		Send,𝒿
-	Return
-
-	CapsLock & k::
-	If Caps_state = D
-		Send,𝒦
-	Else
-		Send,𝓀
-	Return
-
-	CapsLock & l::
-	If Caps_state = D
-		Send,ℒ
-	Else
-		Send,𝓁
-	Return
-
-	CapsLock & m::
-	If Caps_state = D
-		Send,ℳ
-	Else
-		Send,𝓂
-	Return
-
-	CapsLock & n::
-	If Caps_state = D
-		Send,𝒩
-	Else
-		Send,𝓃
-	Return
-
-	CapsLock & o::
-	If Caps_state = D
-		Send,𝒪
-	Else
-		Send,ℴ
-	Return
-
-	CapsLock & p::
-	If Caps_state = D
-		Send,𝒫
-	Else
-		Send,𝓅
-	Return
-
-	CapsLock & q::
-	If Caps_state = D
-		Send,𝒬
-	Else
-		Send,𝓆
-	Return
-
-	CapsLock & r::
-	If Caps_state = D
-		Send,ℛ
-	Else
-		Send,𝓇
-	Return
-
-	CapsLock & s::
-	If Caps_state = D
-		Send,𝒮
-	Else
-		Send,𝓈
-	Return
-
-	CapsLock & t::
-	If Caps_state = D
-		Send,𝒯
-	Else
-		Send,𝓉
-	Return
-
-	CapsLock & u::
-	If Caps_state = D
-		Send,𝒰
-	Else
-		Send,𝓊
-	Return
-
-	CapsLock & v::
-	If Caps_state = D
-		Send,𝒱
-	Else
-		Send,𝓋
-	Return
-
-	CapsLock & w::
-	If Caps_state = D
-		Send,𝒲
-	Else
-		Send,𝓌
-	Return
-
-	CapsLock & x::
-	If Caps_state = D
-		Send,𝒳
-	Else
-		Send,𝓍
-	Return
-
-	CapsLock & y::
-	If Caps_state = D
-		Send,𝒴
-	Else
-		Send,𝓎
-	Return
-
-	CapsLock & z::
-	If Caps_state = D
-		Send,𝒵
-	Else
-		Send,𝓏
-	Return
-
-# 花体 &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
-	>!a::
-	If Caps_state = D
-		Send,𝔄
-	Else
-		Send,𝔞
-	Return
-	+>!a::
-	If Caps_state = D
-		Send,𝔞
-	Else
-		Send,𝔄
-	Return
-
-
-	>!b::
-	If Caps_state = D
-		Send,𝔅
-	Else
-		Send,𝔟
-	Return
-	+>!b::
-	If Caps_state = D
-		Send,𝔟
-	Else
-		Send,𝔅
-	Return
-
-
-	>!c::
-	If Caps_state = D
-		Send,ℭ
-	Else
-		Send,𝔠
-	Return
-	+>!c::
-	If Caps_state = D
-		Send,𝔠
-	Else
-		Send,ℭ
-	Return
-
-
-	>!d::
-	If Caps_state = D
-		Send,𝔇
-	Else
-		Send,𝔡
-	Return
-	+>!d::
-	If Caps_state = D
-		Send,𝔡
-	Else
-		Send,𝔇
-	Return
-
-
-	>!e::
-	If Caps_state = D
-		Send,𝔈
-	Else
-		Send,𝔢
-	Return
-	+>!e::
-	If Caps_state = D
-		Send,𝔢
-	Else
-		Send,𝔈
-	Return
-
-
-	>!f::
-	If Caps_state = D
-		Send,𝔉
-	Else
-		Send,𝔣
-	Return
-	+>!f::
-	If Caps_state = D
-		Send,𝔣
-	Else
-		Send,𝔉
-	Return
-
-
-	>!g::
-	If Caps_state = D
-		Send,𝔊
-	Else
-		Send,𝔤
-	Return
-	+>!g::
-	If Caps_state = D
-		Send,𝔤
-	Else
-		Send,𝔊
-	Return
-
-
-	>!h::
-	If Caps_state = D
-		Send,ℌ
-	Else
-		Send,𝔥
-	Return
-	+>!h::
-	If Caps_state = D
-		Send,𝔥
-	Else
-		Send,ℌ
-	Return
-
-
-	>!i::
-	If Caps_state = D
-		Send,ℑ
-	Else
-		Send,𝔦
-	Return
-	+>!i::
-	If Caps_state = D
-		Send,𝔦
-	Else
-		Send,ℑ
-	Return
-
-
-	>!j::
-	If Caps_state = D
-		Send,𝔍
-	Else
-		Send,𝔧
-	Return
-	+>!j::
-	If Caps_state = D
-		Send,𝔧
-	Else
-		Send,𝔍
-	Return
-
-
-	>!k::
-	If Caps_state = D
-		Send,𝔎
-	Else
-		Send,𝔨
-	Return
-	+>!k::
-	If Caps_state = D
-		Send,𝔨
-	Else
-		Send,𝔎
-	Return
-
-
-	>!l::
-	If Caps_state = D
-		Send,𝔏
-	Else
-		Send,𝔩
-	Return
-	+>!l::
-	If Caps_state = D
-		Send,𝔩
-	Else
-		Send,𝔏
-	Return
-
-
-	>!m::
-	If Caps_state = D
-		Send,𝔐
-	Else
-		Send,𝔪
-	Return
-	+>!m::
-	If Caps_state = D
-		Send,𝔪
-	Else
-		Send,𝔐
-	Return
-
-
-	>!n::
-	If Caps_state = D
-		Send,𝔑
-	Else
-		Send,𝔫
-	Return
-	+>!n::
-	If Caps_state = D
-		Send,𝔫
-	Else
-		Send,𝔑
-	Return
-
-
-	>!o::
-	If Caps_state = D
-		Send,𝔒
-	Else
-		Send,𝔬
-	Return
-	+>!o::
-	If Caps_state = D
-		Send,𝔬
-	Else
-		Send,𝔒
-	Return
-
-
-	>!p::
-	If Caps_state = D
-		Send,𝔓
-	Else
-		Send,𝔭
-	Return
-	+>!p::
-	If Caps_state = D
-		Send,𝔭
-	Else
-		Send,𝔓
-	Return
-
-
-	>!q::
-	If Caps_state = D
-		Send,𝔔
-	Else
-		Send,𝔮
-	Return
-	+>!q::
-	If Caps_state = D
-		Send,𝔮
-	Else
-		Send,𝔔
-	Return
-
-
-	>!r::
-	If Caps_state = D
-		Send,ℜ
-	Else
-		Send,𝔯
-	Return
-	+>!r::
-	If Caps_state = D
-		Send,𝔯
-	Else
-		Send,ℜ
-	Return
-
-
-	>!s::
-	If Caps_state = D
-		Send,𝔖
-	Else
-		Send,𝔰
-	Return
-	+>!s::
-	If Caps_state = D
-		Send,𝔰
-	Else
-		Send,𝔖
-	Return
-
-
-	>!t::
-	If Caps_state = D
-		Send,𝔗
-	Else
-		Send,𝔱
-	Return
-	+>!t::
-	If Caps_state = D
-		Send,𝔱
-	Else
-		Send,𝔗
-	Return
-
-
-	>!u::
-	If Caps_state = D
-		Send,𝔘
-	Else
-		Send,𝔲
-	Return
-	+>!u::
-	If Caps_state = D
-		Send,𝔲
-	Else
-		Send,𝔘
-	Return
-
-
-	>!v::
-	If Caps_state = D
-		Send,𝔙
-	Else
-		Send,𝔳
-	Return
-	+>!v::
-	If Caps_state = D
-		Send,𝔳
-	Else
-		Send,𝔙
-	Return
-
-
-	>!w::
-	If Caps_state = D
-		Send,𝔚
-	Else
-		Send,𝔴
-	Return
-	+>!w::
-	If Caps_state = D
-		Send,𝔴
-	Else
-		Send,𝔚
-	Return
-
-
-	>!x::
-	If Caps_state = D
-		Send,𝔛
-	Else
-		Send,𝔵
-	Return
-	+>!x::
-	If Caps_state = D
-		Send,𝔵
-	Else
-		Send,𝔛
-	Return
-
-
-	>!y::
-	If Caps_state = D
-		Send,𝔜
-	Else
-		Send,𝔶
-	Return
-	+>!y::
-	If Caps_state = D
-		Send,𝔶
-	Else
-		Send,𝔜
-	Return
-
-
-	>!z::
-	If Caps_state = D
-		Send,ℨ
-	Else
-		Send,𝔷
-	Return
-	+>!z::
-	If Caps_state = D
-		Send,𝔷
-	Else
-		Send,ℨ
-	Return
-
-
-
-# ; win + key&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
-# 	; by default,
-# 	; nums(1-6),-,+,arrows,E,G,I,L,M,R,W,X, are useful
-# 	; B,C,F,K,P has been used
-# 	; Q and S are the same
-# 	; A,D,T,U, are useless
-# 	; H,J,O,V,Z, are undefined
-# 	; N,Y are just like click them only
-
 # ; 中文标点输入&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
 # 	>!`::Send,、
 # 	>!.::Send,。
@@ -776,8 +339,23 @@ _comment2 = """
 # 	>!)::Send,）
 # 	>!+,::Send,《》{left}
 # 	>!+.::Send,》
-
-
 """
+
+# 杂项
+"female/." = "♀"
+# the female must be in front of male
+"male/." = "♂"
+
+"Sun/." = "☉"
+"Mercury/." = "☿"
+"Venus/." = "♀"
+"Earth/." = "♁"
+"Moon/." = "☾"
+"Mars/." = "♂"
+"Jupiter/." = "♃"
+"Saturn/." = "♄"
+"Uranus/." = "⛢"
+"Neptune/." = "♆"
+
 ]])
 HT:start()
