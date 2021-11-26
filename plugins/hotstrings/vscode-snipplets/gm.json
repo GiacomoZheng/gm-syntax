@@ -1,0 +1,1045 @@
+{
+	"~< : ≺": {
+		"prefix": "~<",
+		"body": "≺"
+	},
+
+	"~> : ≻": {
+		"prefix": "~>",
+		"body": "≻"
+	},
+
+	"~≤ : ≼": {
+		"prefix": "~≤",
+		"body": "≼"
+	},
+
+	"~≥ : ≽": {
+		"prefix": "~≥",
+		"body": "≽"
+	},
+
+	"~= : ≌": {
+		"prefix": "~=",
+		"body": "≌"
+	},
+
+	"=> : ⇒": {
+		"prefix": "=>",
+		"body": "⇒"
+	},
+
+	"<= : ⇐": {
+		"prefix": "<=",
+		"body": "⇐"
+	},
+
+	"<=> : ⇔": {
+		"prefix": "<=>",
+		"body": "⇔"
+	},
+
+	"-> : →": {
+		"prefix": "->",
+		"body": "→"
+	},
+
+	"<- : ←": {
+		"prefix": "<-",
+		"body": "←"
+	},
+
+	"<-> : ↔": {
+		"prefix": "<->",
+		"body": "↔"
+	},
+
+	"|-> : ↦": {
+		"prefix": "|->",
+		"body": "↦"
+	},
+
+	"<-| : ↤": {
+		"prefix": "<-|",
+		"body": "↤"
+	},
+
+	"|| : ‖": {
+		"prefix": "||",
+		"body": "‖"
+	},
+
+	"alpha : α": {
+		"prefix": "alpha",
+		"body": "α"
+	},
+
+	"gamma : γ": {
+		"prefix": "gamma",
+		"body": "γ"
+	},
+
+	"delta : δ": {
+		"prefix": "delta",
+		"body": "δ"
+	},
+
+	"epsilon : ε": {
+		"prefix": "epsilon",
+		"body": "ε"
+	},
+
+	"beta : β": {
+		"prefix": "beta",
+		"body": "β"
+	},
+
+	"zeta : ζ": {
+		"prefix": "zeta",
+		"body": "ζ"
+	},
+
+	"theta : θ": {
+		"prefix": "theta",
+		"body": "θ"
+	},
+
+	"eta : η": {
+		"prefix": "eta",
+		"body": "η"
+	},
+
+	"iota : ι": {
+		"prefix": "iota",
+		"body": "ι"
+	},
+
+	"kappa : κ": {
+		"prefix": "kappa",
+		"body": "κ"
+	},
+
+	"lambda : λ": {
+		"prefix": "lambda",
+		"body": "λ"
+	},
+
+	"mu : μ": {
+		"prefix": "mu",
+		"body": "μ"
+	},
+
+	"nu : ν": {
+		"prefix": "nu",
+		"body": "ν"
+	},
+
+	"xi : ξ": {
+		"prefix": "xi",
+		"body": "ξ"
+	},
+
+	"omicron : ο": {
+		"prefix": "omicron",
+		"body": "ο"
+	},
+
+	"pi : π": {
+		"prefix": "pi",
+		"body": "π"
+	},
+
+	"rho : ρ": {
+		"prefix": "rho",
+		"body": "ρ"
+	},
+
+	"sigma : σ": {
+		"prefix": "sigma",
+		"body": "σ"
+	},
+
+	"tau : τ": {
+		"prefix": "tau",
+		"body": "τ"
+	},
+
+	"upsilon : υ": {
+		"prefix": "upsilon",
+		"body": "υ"
+	},
+
+	"phi : φ": {
+		"prefix": "phi",
+		"body": "φ"
+	},
+
+	"chi : χ": {
+		"prefix": "chi",
+		"body": "χ"
+	},
+
+	"psi : ψ": {
+		"prefix": "psi",
+		"body": "ψ"
+	},
+
+	"omega : ω": {
+		"prefix": "omega",
+		"body": "ω"
+	},
+
+	"aleph : א": {
+		"prefix": "aleph",
+		"body": "א"
+	},
+
+	"alef : א": {
+		"prefix": "alef",
+		"body": "א"
+	},
+
+	"\\a : 𝕒": {
+		"prefix": "\\a",
+		"body": "𝕒"
+	},
+
+	"\\b : 𝕓": {
+		"prefix": "\\b",
+		"body": "𝕓"
+	},
+
+	"\\c : 𝕔": {
+		"prefix": "\\c",
+		"body": "𝕔"
+	},
+
+	"\\d : 𝕕": {
+		"prefix": "\\d",
+		"body": "𝕕"
+	},
+
+	"\\e : 𝕖": {
+		"prefix": "\\e",
+		"body": "𝕖"
+	},
+
+	"\\f : 𝕗": {
+		"prefix": "\\f",
+		"body": "𝕗"
+	},
+
+	"\\g : 𝕘": {
+		"prefix": "\\g",
+		"body": "𝕘"
+	},
+
+	"\\h : 𝕙": {
+		"prefix": "\\h",
+		"body": "𝕙"
+	},
+
+	"\\i : 𝕚": {
+		"prefix": "\\i",
+		"body": "𝕚"
+	},
+
+	"\\j : 𝕛": {
+		"prefix": "\\j",
+		"body": "𝕛"
+	},
+
+	"\\k : 𝕜": {
+		"prefix": "\\k",
+		"body": "𝕜"
+	},
+
+	"\\l : 𝕝": {
+		"prefix": "\\l",
+		"body": "𝕝"
+	},
+
+	"\\m : 𝕞": {
+		"prefix": "\\m",
+		"body": "𝕞"
+	},
+
+	"\\n : 𝕟": {
+		"prefix": "\\n",
+		"body": "𝕟"
+	},
+
+	"\\o : 𝕠": {
+		"prefix": "\\o",
+		"body": "𝕠"
+	},
+
+	"\\p : 𝕡": {
+		"prefix": "\\p",
+		"body": "𝕡"
+	},
+
+	"\\q : 𝕢": {
+		"prefix": "\\q",
+		"body": "𝕢"
+	},
+
+	"\\r : 𝕣": {
+		"prefix": "\\r",
+		"body": "𝕣"
+	},
+
+	"\\s : 𝕤": {
+		"prefix": "\\s",
+		"body": "𝕤"
+	},
+
+	"\\t : 𝕥": {
+		"prefix": "\\t",
+		"body": "𝕥"
+	},
+
+	"\\u : 𝕦": {
+		"prefix": "\\u",
+		"body": "𝕦"
+	},
+
+	"\\v : 𝕧": {
+		"prefix": "\\v",
+		"body": "𝕧"
+	},
+
+	"\\w : 𝕨": {
+		"prefix": "\\w",
+		"body": "𝕨"
+	},
+
+	"\\x : 𝕩": {
+		"prefix": "\\x",
+		"body": "𝕩"
+	},
+
+	"\\y : 𝕪": {
+		"prefix": "\\y",
+		"body": "𝕪"
+	},
+
+	"\\z : 𝕫": {
+		"prefix": "\\z",
+		"body": "𝕫"
+	},
+
+	"\\A : 𝔸": {
+		"prefix": "\\A",
+		"body": "𝔸"
+	},
+
+	"\\B : 𝔹": {
+		"prefix": "\\B",
+		"body": "𝔹"
+	},
+
+	"\\C : ℂ": {
+		"prefix": "\\C",
+		"body": "ℂ"
+	},
+
+	"\\D : 𝔻": {
+		"prefix": "\\D",
+		"body": "𝔻"
+	},
+
+	"\\E : 𝔼": {
+		"prefix": "\\E",
+		"body": "𝔼"
+	},
+
+	"\\F : 𝔽": {
+		"prefix": "\\F",
+		"body": "𝔽"
+	},
+
+	"\\G : 𝔾": {
+		"prefix": "\\G",
+		"body": "𝔾"
+	},
+
+	"\\H : ℍ": {
+		"prefix": "\\H",
+		"body": "ℍ"
+	},
+
+	"\\I : 𝕀": {
+		"prefix": "\\I",
+		"body": "𝕀"
+	},
+
+	"\\J : 𝕁": {
+		"prefix": "\\J",
+		"body": "𝕁"
+	},
+
+	"\\K : 𝕂": {
+		"prefix": "\\K",
+		"body": "𝕂"
+	},
+
+	"\\L : 𝕃": {
+		"prefix": "\\L",
+		"body": "𝕃"
+	},
+
+	"\\M : 𝕄": {
+		"prefix": "\\M",
+		"body": "𝕄"
+	},
+
+	"\\N : ℕ": {
+		"prefix": "\\N",
+		"body": "ℕ"
+	},
+
+	"\\O : 𝕆": {
+		"prefix": "\\O",
+		"body": "𝕆"
+	},
+
+	"\\P : ℙ": {
+		"prefix": "\\P",
+		"body": "ℙ"
+	},
+
+	"\\Q : ℚ": {
+		"prefix": "\\Q",
+		"body": "ℚ"
+	},
+
+	"\\R : ℝ": {
+		"prefix": "\\R",
+		"body": "ℝ"
+	},
+
+	"\\S : 𝕊": {
+		"prefix": "\\S",
+		"body": "𝕊"
+	},
+
+	"\\T : 𝕋": {
+		"prefix": "\\T",
+		"body": "𝕋"
+	},
+
+	"\\U : 𝕌": {
+		"prefix": "\\U",
+		"body": "𝕌"
+	},
+
+	"\\V : 𝕍": {
+		"prefix": "\\V",
+		"body": "𝕍"
+	},
+
+	"\\W : 𝕎": {
+		"prefix": "\\W",
+		"body": "𝕎"
+	},
+
+	"\\X : 𝕏": {
+		"prefix": "\\X",
+		"body": "𝕏"
+	},
+
+	"\\Y : 𝕐": {
+		"prefix": "\\Y",
+		"body": "𝕐"
+	},
+
+	"\\Z : ℤ": {
+		"prefix": "\\Z",
+		"body": "ℤ"
+	},
+
+	"A.c : 𝒜": {
+		"prefix": "A.c",
+		"body": "𝒜"
+	},
+
+	"a.c : 𝒶": {
+		"prefix": "a.c",
+		"body": "𝒶"
+	},
+
+	"B.c : ℬ": {
+		"prefix": "B.c",
+		"body": "ℬ"
+	},
+
+	"b.c : 𝒷": {
+		"prefix": "b.c",
+		"body": "𝒷"
+	},
+
+	"C.c : 𝒞": {
+		"prefix": "C.c",
+		"body": "𝒞"
+	},
+
+	"c.c : 𝒸": {
+		"prefix": "c.c",
+		"body": "𝒸"
+	},
+
+	"D.c : 𝒟": {
+		"prefix": "D.c",
+		"body": "𝒟"
+	},
+
+	"d.c : 𝒹": {
+		"prefix": "d.c",
+		"body": "𝒹"
+	},
+
+	"E.c : ℰ": {
+		"prefix": "E.c",
+		"body": "ℰ"
+	},
+
+	"e.c : ℯ": {
+		"prefix": "e.c",
+		"body": "ℯ"
+	},
+
+	"F.c : ℱ": {
+		"prefix": "F.c",
+		"body": "ℱ"
+	},
+
+	"f.c : 𝒻": {
+		"prefix": "f.c",
+		"body": "𝒻"
+	},
+
+	"G.c : 𝒢": {
+		"prefix": "G.c",
+		"body": "𝒢"
+	},
+
+	"g.c : ℊ": {
+		"prefix": "g.c",
+		"body": "ℊ"
+	},
+
+	"H.c : ℋ": {
+		"prefix": "H.c",
+		"body": "ℋ"
+	},
+
+	"h.c : 𝒽": {
+		"prefix": "h.c",
+		"body": "𝒽"
+	},
+
+	"I.c : ℐ": {
+		"prefix": "I.c",
+		"body": "ℐ"
+	},
+
+	"i.c : 𝒾": {
+		"prefix": "i.c",
+		"body": "𝒾"
+	},
+
+	"J.c : 𝒥": {
+		"prefix": "J.c",
+		"body": "𝒥"
+	},
+
+	"j.c : 𝒿": {
+		"prefix": "j.c",
+		"body": "𝒿"
+	},
+
+	"K.c : 𝒦": {
+		"prefix": "K.c",
+		"body": "𝒦"
+	},
+
+	"k.c : 𝓀": {
+		"prefix": "k.c",
+		"body": "𝓀"
+	},
+
+	"L.c : ℒ": {
+		"prefix": "L.c",
+		"body": "ℒ"
+	},
+
+	"l.c : 𝓁": {
+		"prefix": "l.c",
+		"body": "𝓁"
+	},
+
+	"M.c : ℳ": {
+		"prefix": "M.c",
+		"body": "ℳ"
+	},
+
+	"m.c : 𝓂": {
+		"prefix": "m.c",
+		"body": "𝓂"
+	},
+
+	"N.c : 𝒩": {
+		"prefix": "N.c",
+		"body": "𝒩"
+	},
+
+	"n.c : 𝓃": {
+		"prefix": "n.c",
+		"body": "𝓃"
+	},
+
+	"O.c : 𝒪": {
+		"prefix": "O.c",
+		"body": "𝒪"
+	},
+
+	"o.c : ℴ": {
+		"prefix": "o.c",
+		"body": "ℴ"
+	},
+
+	"P.c : 𝒫": {
+		"prefix": "P.c",
+		"body": "𝒫"
+	},
+
+	"p.c : 𝓅": {
+		"prefix": "p.c",
+		"body": "𝓅"
+	},
+
+	"Q.c : 𝒬": {
+		"prefix": "Q.c",
+		"body": "𝒬"
+	},
+
+	"q.c : 𝓆": {
+		"prefix": "q.c",
+		"body": "𝓆"
+	},
+
+	"R.c : ℛ": {
+		"prefix": "R.c",
+		"body": "ℛ"
+	},
+
+	"r.c : 𝓇": {
+		"prefix": "r.c",
+		"body": "𝓇"
+	},
+
+	"S.c : 𝒮": {
+		"prefix": "S.c",
+		"body": "𝒮"
+	},
+
+	"s.c : 𝓈": {
+		"prefix": "s.c",
+		"body": "𝓈"
+	},
+
+	"T.c : 𝒯": {
+		"prefix": "T.c",
+		"body": "𝒯"
+	},
+
+	"t.c : 𝓉": {
+		"prefix": "t.c",
+		"body": "𝓉"
+	},
+
+	"U.c : 𝒰": {
+		"prefix": "U.c",
+		"body": "𝒰"
+	},
+
+	"u.c : 𝓊": {
+		"prefix": "u.c",
+		"body": "𝓊"
+	},
+
+	"V.c : 𝒱": {
+		"prefix": "V.c",
+		"body": "𝒱"
+	},
+
+	"v.c : 𝓋": {
+		"prefix": "v.c",
+		"body": "𝓋"
+	},
+
+	"W.c : 𝒲": {
+		"prefix": "W.c",
+		"body": "𝒲"
+	},
+
+	"w.c : 𝓌": {
+		"prefix": "w.c",
+		"body": "𝓌"
+	},
+
+	"X.c : 𝒳": {
+		"prefix": "X.c",
+		"body": "𝒳"
+	},
+
+	"x.c : 𝓍": {
+		"prefix": "x.c",
+		"body": "𝓍"
+	},
+
+	"Y.c : 𝒴": {
+		"prefix": "Y.c",
+		"body": "𝒴"
+	},
+
+	"y.c : 𝓎": {
+		"prefix": "y.c",
+		"body": "𝓎"
+	},
+
+	"Z.c : 𝒵": {
+		"prefix": "Z.c",
+		"body": "𝒵"
+	},
+
+	"z.c : 𝓏": {
+		"prefix": "z.c",
+		"body": "𝓏"
+	},
+
+	"A.f : 𝔄": {
+		"prefix": "A.f",
+		"body": "𝔄"
+	},
+
+	"a.f : 𝔞": {
+		"prefix": "a.f",
+		"body": "𝔞"
+	},
+
+	"B.f : 𝔅": {
+		"prefix": "B.f",
+		"body": "𝔅"
+	},
+
+	"b.f : 𝔟": {
+		"prefix": "b.f",
+		"body": "𝔟"
+	},
+
+	"C.f : ℭ": {
+		"prefix": "C.f",
+		"body": "ℭ"
+	},
+
+	"c.f : 𝔠": {
+		"prefix": "c.f",
+		"body": "𝔠"
+	},
+
+	"D.f : 𝔇": {
+		"prefix": "D.f",
+		"body": "𝔇"
+	},
+
+	"d.f : 𝔡": {
+		"prefix": "d.f",
+		"body": "𝔡"
+	},
+
+	"E.f : 𝔈": {
+		"prefix": "E.f",
+		"body": "𝔈"
+	},
+
+	"e.f : 𝔢": {
+		"prefix": "e.f",
+		"body": "𝔢"
+	},
+
+	"F.f : 𝔉": {
+		"prefix": "F.f",
+		"body": "𝔉"
+	},
+
+	"f.f : 𝔣": {
+		"prefix": "f.f",
+		"body": "𝔣"
+	},
+
+	"G.f : 𝔊": {
+		"prefix": "G.f",
+		"body": "𝔊"
+	},
+
+	"g.f : 𝔤": {
+		"prefix": "g.f",
+		"body": "𝔤"
+	},
+
+	"H.f : ℌ": {
+		"prefix": "H.f",
+		"body": "ℌ"
+	},
+
+	"h.f : 𝔥": {
+		"prefix": "h.f",
+		"body": "𝔥"
+	},
+
+	"I.f : ℑ": {
+		"prefix": "I.f",
+		"body": "ℑ"
+	},
+
+	"i.f : 𝔦": {
+		"prefix": "i.f",
+		"body": "𝔦"
+	},
+
+	"J.f : 𝔍": {
+		"prefix": "J.f",
+		"body": "𝔍"
+	},
+
+	"j.f : 𝔧": {
+		"prefix": "j.f",
+		"body": "𝔧"
+	},
+
+	"K.f : 𝔎": {
+		"prefix": "K.f",
+		"body": "𝔎"
+	},
+
+	"k.f : 𝔨": {
+		"prefix": "k.f",
+		"body": "𝔨"
+	},
+
+	"L.f : 𝔏": {
+		"prefix": "L.f",
+		"body": "𝔏"
+	},
+
+	"l.f : 𝔩": {
+		"prefix": "l.f",
+		"body": "𝔩"
+	},
+
+	"M.f : 𝔐": {
+		"prefix": "M.f",
+		"body": "𝔐"
+	},
+
+	"m.f : 𝔪": {
+		"prefix": "m.f",
+		"body": "𝔪"
+	},
+
+	"N.f : 𝔑": {
+		"prefix": "N.f",
+		"body": "𝔑"
+	},
+
+	"n.f : 𝔫": {
+		"prefix": "n.f",
+		"body": "𝔫"
+	},
+
+	"O.f : 𝔒": {
+		"prefix": "O.f",
+		"body": "𝔒"
+	},
+
+	"o.f : 𝔬": {
+		"prefix": "o.f",
+		"body": "𝔬"
+	},
+
+	"P.f : 𝔓": {
+		"prefix": "P.f",
+		"body": "𝔓"
+	},
+
+	"p.f : 𝔭": {
+		"prefix": "p.f",
+		"body": "𝔭"
+	},
+
+	"Q.f : 𝔔": {
+		"prefix": "Q.f",
+		"body": "𝔔"
+	},
+
+	"q.f : 𝔮": {
+		"prefix": "q.f",
+		"body": "𝔮"
+	},
+
+	"R.f : ℜ": {
+		"prefix": "R.f",
+		"body": "ℜ"
+	},
+
+	"r.f : 𝔯": {
+		"prefix": "r.f",
+		"body": "𝔯"
+	},
+
+	"S.f : 𝔖": {
+		"prefix": "S.f",
+		"body": "𝔖"
+	},
+
+	"s.f : 𝔰": {
+		"prefix": "s.f",
+		"body": "𝔰"
+	},
+
+	"T.f : 𝔗": {
+		"prefix": "T.f",
+		"body": "𝔗"
+	},
+
+	"t.f : 𝔱": {
+		"prefix": "t.f",
+		"body": "𝔱"
+	},
+
+	"U.f : 𝔘": {
+		"prefix": "U.f",
+		"body": "𝔘"
+	},
+
+	"u.f : 𝔲": {
+		"prefix": "u.f",
+		"body": "𝔲"
+	},
+
+	"V.f : 𝔙": {
+		"prefix": "V.f",
+		"body": "𝔙"
+	},
+
+	"v.f : 𝔳": {
+		"prefix": "v.f",
+		"body": "𝔳"
+	},
+
+	"W.f : 𝔚": {
+		"prefix": "W.f",
+		"body": "𝔚"
+	},
+
+	"w.f : 𝔴": {
+		"prefix": "w.f",
+		"body": "𝔴"
+	},
+
+	"X.f : 𝔛": {
+		"prefix": "X.f",
+		"body": "𝔛"
+	},
+
+	"x.f : 𝔵": {
+		"prefix": "x.f",
+		"body": "𝔵"
+	},
+
+	"Y.f : 𝔜": {
+		"prefix": "Y.f",
+		"body": "𝔜"
+	},
+
+	"y.f : 𝔶": {
+		"prefix": "y.f",
+		"body": "𝔶"
+	},
+
+	"Z.f : ℨ": {
+		"prefix": "Z.f",
+		"body": "ℨ"
+	},
+
+	"z.f : 𝔷": {
+		"prefix": "z.f",
+		"body": "𝔷"
+	},
+
+	"female : ♀": {
+		"prefix": "female",
+		"body": "♀"
+	},
+
+	"male : ♂": {
+		"prefix": "male",
+		"body": "♂"
+	},
+
+	"Sun : ☉": {
+		"prefix": "Sun",
+		"body": "☉"
+	},
+
+	"Mercury : ☿": {
+		"prefix": "Mercury",
+		"body": "☿"
+	},
+
+	"Venus : ♀": {
+		"prefix": "Venus",
+		"body": "♀"
+	},
+
+	"Earth : ♁": {
+		"prefix": "Earth",
+		"body": "♁"
+	},
+
+	"Moon : ☾": {
+		"prefix": "Moon",
+		"body": "☾"
+	},
+
+	"Mars : ♂": {
+		"prefix": "Mars",
+		"body": "♂"
+	},
+
+	"Jupiter : ♃": {
+		"prefix": "Jupiter",
+		"body": "♃"
+	},
+
+	"Saturn : ♄": {
+		"prefix": "Saturn",
+		"body": "♄"
+	},
+
+	"Uranus : ⛢": {
+		"prefix": "Uranus",
+		"body": "⛢"
+	},
+
+	"Neptune : ♆": {
+		"prefix": "Neptune",
+		"body": "♆"
+	},
+
+	"_": {
+		"body": ""
+	}
+}

@@ -1,4 +1,4 @@
-`better-comments` is a useful extension
+`better-comments` is a very useful extension.
 
 Here is my settings,
 ```json
@@ -58,6 +58,6 @@ Here is my settings,
 }
 ```
 
-In fact, for the latest `better-comments` (2.0.2), it doesn't support my `gm` language.
+However, for the latest `better-comments` (2.0.2), it doesn't support my `gm` language.
 
 If you want to achieve the functions of it in `gm`, refer to the [settings](../settings/README) part to add some settings in `settings.json`.
