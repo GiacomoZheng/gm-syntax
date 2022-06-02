@@ -89,9 +89,27 @@
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>⟨</string>
+		<key>shortcut</key>
+		<string>&lt;|</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>⟩</string>
+		<key>shortcut</key>
+		<string>|&gt;</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>α</string>
 		<key>shortcut</key>
 		<string>alpha</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Α</string>
+		<key>shortcut</key>
+		<string>Alpha</string>
 	</dict>
 	<dict>
 		<key>phrase</key>
@@ -101,9 +119,21 @@
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>Γ</string>
+		<key>shortcut</key>
+		<string>Gamma</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>δ</string>
 		<key>shortcut</key>
 		<string>delta</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Δ</string>
+		<key>shortcut</key>
+		<string>Delta</string>
 	</dict>
 	<dict>
 		<key>phrase</key>
@@ -113,9 +143,21 @@
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>Ε</string>
+		<key>shortcut</key>
+		<string>Epsilon</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>β</string>
 		<key>shortcut</key>
 		<string>beta</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Β</string>
+		<key>shortcut</key>
+		<string>Beta</string>
 	</dict>
 	<dict>
 		<key>phrase</key>
@@ -125,9 +167,21 @@
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>Ζ</string>
+		<key>shortcut</key>
+		<string>Zeta</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>θ</string>
 		<key>shortcut</key>
 		<string>theta</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Θ</string>
+		<key>shortcut</key>
+		<string>Theta</string>
 	</dict>
 	<dict>
 		<key>phrase</key>
@@ -137,9 +191,21 @@
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>Η</string>
+		<key>shortcut</key>
+		<string>Eta</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>ι</string>
 		<key>shortcut</key>
 		<string>iota</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Ι</string>
+		<key>shortcut</key>
+		<string>Iota</string>
 	</dict>
 	<dict>
 		<key>phrase</key>
@@ -149,9 +215,21 @@
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>Κ</string>
+		<key>shortcut</key>
+		<string>Kappa</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>λ</string>
 		<key>shortcut</key>
 		<string>lambda</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Λ</string>
+		<key>shortcut</key>
+		<string>Lambda</string>
 	</dict>
 	<dict>
 		<key>phrase</key>
@@ -161,9 +239,21 @@
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>Μ</string>
+		<key>shortcut</key>
+		<string>Mu</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>ν</string>
 		<key>shortcut</key>
 		<string>nu</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Ν</string>
+		<key>shortcut</key>
+		<string>Nu</string>
 	</dict>
 	<dict>
 		<key>phrase</key>
@@ -173,9 +263,21 @@
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>Ξ</string>
+		<key>shortcut</key>
+		<string>Xi</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>ο</string>
 		<key>shortcut</key>
 		<string>omicron</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Ο</string>
+		<key>shortcut</key>
+		<string>Omicron</string>
 	</dict>
 	<dict>
 		<key>phrase</key>
@@ -185,9 +287,21 @@
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>Π</string>
+		<key>shortcut</key>
+		<string>Pi</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>ρ</string>
 		<key>shortcut</key>
 		<string>rho</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Ρ</string>
+		<key>shortcut</key>
+		<string>Rho</string>
 	</dict>
 	<dict>
 		<key>phrase</key>
@@ -197,9 +311,21 @@
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>Σ</string>
+		<key>shortcut</key>
+		<string>Sigma</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>τ</string>
 		<key>shortcut</key>
 		<string>tau</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Τ</string>
+		<key>shortcut</key>
+		<string>Tau</string>
 	</dict>
 	<dict>
 		<key>phrase</key>
@@ -209,9 +335,21 @@
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>Υ</string>
+		<key>shortcut</key>
+		<string>Upsilon</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>φ</string>
 		<key>shortcut</key>
 		<string>phi</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Φ</string>
+		<key>shortcut</key>
+		<string>Phi</string>
 	</dict>
 	<dict>
 		<key>phrase</key>
@@ -221,15 +359,33 @@
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>Χ</string>
+		<key>shortcut</key>
+		<string>Chi</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>ψ</string>
 		<key>shortcut</key>
 		<string>psi</string>
 	</dict>
 	<dict>
 		<key>phrase</key>
+		<string>Ψ</string>
+		<key>shortcut</key>
+		<string>Psi</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
 		<string>ω</string>
 		<key>shortcut</key>
 		<string>omega</string>
+	</dict>
+	<dict>
+		<key>phrase</key>
+		<string>Ω</string>
+		<key>shortcut</key>
+		<string>Omega</string>
 	</dict>
 	<dict>
 		<key>phrase</key>

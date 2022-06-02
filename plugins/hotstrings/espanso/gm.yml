@@ -41,6 +41,12 @@ matches:
   - triggers: ["||	", "||/."]
     replace: "‖"
 
+  - triggers: ["<|	", "<|/."]
+    replace: "⟨"
+
+  - triggers: ["|>	", "|>/."]
+    replace: "⟩"
+
   - triggers: ["alpha	", "alpha/."]
     replace: "α"
 

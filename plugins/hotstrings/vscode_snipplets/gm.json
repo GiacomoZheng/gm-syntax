@@ -69,9 +69,24 @@
 		"body": "‖"
 	},
 
+	"<| : ⟨": {
+		"prefix": "<|",
+		"body": "⟨"
+	},
+
+	"|> : ⟩": {
+		"prefix": "|>",
+		"body": "⟩"
+	},
+
 	"alpha : α": {
 		"prefix": "alpha",
 		"body": "α"
+	},
+
+	"Alpha : Α": {
+		"prefix": "Alpha",
+		"body": "Α"
 	},
 
 	"gamma : γ": {
@@ -79,9 +94,19 @@
 		"body": "γ"
 	},
 
+	"Gamma : Γ": {
+		"prefix": "Gamma",
+		"body": "Γ"
+	},
+
 	"delta : δ": {
 		"prefix": "delta",
 		"body": "δ"
+	},
+
+	"Delta : Δ": {
+		"prefix": "Delta",
+		"body": "Δ"
 	},
 
 	"epsilon : ε": {
@@ -89,9 +114,19 @@
 		"body": "ε"
 	},
 
+	"Epsilon : Ε": {
+		"prefix": "Epsilon",
+		"body": "Ε"
+	},
+
 	"beta : β": {
 		"prefix": "beta",
 		"body": "β"
+	},
+
+	"Beta : Β": {
+		"prefix": "Beta",
+		"body": "Β"
 	},
 
 	"zeta : ζ": {
@@ -99,9 +134,19 @@
 		"body": "ζ"
 	},
 
+	"Zeta : Ζ": {
+		"prefix": "Zeta",
+		"body": "Ζ"
+	},
+
 	"theta : θ": {
 		"prefix": "theta",
 		"body": "θ"
+	},
+
+	"Theta : Θ": {
+		"prefix": "Theta",
+		"body": "Θ"
 	},
 
 	"eta : η": {
@@ -109,9 +154,19 @@
 		"body": "η"
 	},
 
+	"Eta : Η": {
+		"prefix": "Eta",
+		"body": "Η"
+	},
+
 	"iota : ι": {
 		"prefix": "iota",
 		"body": "ι"
+	},
+
+	"Iota : Ι": {
+		"prefix": "Iota",
+		"body": "Ι"
 	},
 
 	"kappa : κ": {
@@ -119,9 +174,19 @@
 		"body": "κ"
 	},
 
+	"Kappa : Κ": {
+		"prefix": "Kappa",
+		"body": "Κ"
+	},
+
 	"lambda : λ": {
 		"prefix": "lambda",
 		"body": "λ"
+	},
+
+	"Lambda : Λ": {
+		"prefix": "Lambda",
+		"body": "Λ"
 	},
 
 	"mu : μ": {
@@ -129,9 +194,19 @@
 		"body": "μ"
 	},
 
+	"Mu : Μ": {
+		"prefix": "Mu",
+		"body": "Μ"
+	},
+
 	"nu : ν": {
 		"prefix": "nu",
 		"body": "ν"
+	},
+
+	"Nu : Ν": {
+		"prefix": "Nu",
+		"body": "Ν"
 	},
 
 	"xi : ξ": {
@@ -139,9 +214,19 @@
 		"body": "ξ"
 	},
 
+	"Xi : Ξ": {
+		"prefix": "Xi",
+		"body": "Ξ"
+	},
+
 	"omicron : ο": {
 		"prefix": "omicron",
 		"body": "ο"
+	},
+
+	"Omicron : Ο": {
+		"prefix": "Omicron",
+		"body": "Ο"
 	},
 
 	"pi : π": {
@@ -149,9 +234,19 @@
 		"body": "π"
 	},
 
+	"Pi : Π": {
+		"prefix": "Pi",
+		"body": "Π"
+	},
+
 	"rho : ρ": {
 		"prefix": "rho",
 		"body": "ρ"
+	},
+
+	"Rho : Ρ": {
+		"prefix": "Rho",
+		"body": "Ρ"
 	},
 
 	"sigma : σ": {
@@ -159,9 +254,19 @@
 		"body": "σ"
 	},
 
+	"Sigma : Σ": {
+		"prefix": "Sigma",
+		"body": "Σ"
+	},
+
 	"tau : τ": {
 		"prefix": "tau",
 		"body": "τ"
+	},
+
+	"Tau : Τ": {
+		"prefix": "Tau",
+		"body": "Τ"
 	},
 
 	"upsilon : υ": {
@@ -169,9 +274,19 @@
 		"body": "υ"
 	},
 
+	"Upsilon : Υ": {
+		"prefix": "Upsilon",
+		"body": "Υ"
+	},
+
 	"phi : φ": {
 		"prefix": "phi",
 		"body": "φ"
+	},
+
+	"Phi : Φ": {
+		"prefix": "Phi",
+		"body": "Φ"
 	},
 
 	"chi : χ": {
@@ -179,14 +294,29 @@
 		"body": "χ"
 	},
 
+	"Chi : Χ": {
+		"prefix": "Chi",
+		"body": "Χ"
+	},
+
 	"psi : ψ": {
 		"prefix": "psi",
 		"body": "ψ"
 	},
 
+	"Psi : Ψ": {
+		"prefix": "Psi",
+		"body": "Ψ"
+	},
+
 	"omega : ω": {
 		"prefix": "omega",
 		"body": "ω"
+	},
+
+	"Omega : Ω": {
+		"prefix": "Omega",
+		"body": "Ω"
 	},
 
 	"aleph : א": {

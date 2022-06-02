@@ -30,52 +30,21 @@ def update(head, body, tail, escape, target):
 
 def update_mac_text():
 	"""Mac OS text substitution"""
-	text = macos.HEAD
-
-	for (key, value) in parsed_toml.items():
-		if key.startswith("_"):
-			continue
-		key = escape(key)
-		value = escape(value)
-		text += macos.BODY.format(key=key, value=value)
-	text += macos.TAIL
-
-	with open("./macos_text/gm.plist", "w") as handle:
-		handle.write(text)
+	update(macos.HEAD, macos.BODY, macos.TAIL, xml_esc, "./macos_text/gm.plist")
 
 def update_vscode():
 	"""vscode gm snipplet"""
-
-	text = vscode.HEAD
-	for (key, value) in parsed_toml.items():
-		if key.startswith("_"):
-			continue
-		key = key.replace("\\", "\\\\")
-		text += vscode.BODY.format(key=key, value=value)
-	text += vscode.TAIL
-
-	with open("./vscode_snipplets/gm.json", "w") as handle:
-		handle.write(text)
+	update(vscode.HEAD, vscode.BODY, vscode.TAIL, backslash_esc, "./vscode_snipplets/gm.json")
 
 def update_espanso():
 	"""espanso text substitution"""
-
-	text = espanso.HEAD
-	for (key, value) in parsed_toml.items():
-		if key.startswith("_"):
-			continue
-		key = key.replace("\\", "\\\\")
-		text += espanso.BODY.format(key=key, value=value)
-	text += espanso.TAIL
-
-	with open("./espanso/gm.yml", "w") as handle:
-		handle.write(text)
+	update(espanso.HEAD, espanso.BODY, espanso.TAIL, backslash_esc, "./espanso/gm.yml")
 
 ################################################
 
 if __name__ == "__main__":
 
 	if os.getcwd().endswith("hotstrings"):
-		# update_mac_text()
-		# update_vscode()
+		update_mac_text()
+		update_vscode()
 		update_espanso()
