@@ -1,0 +1,696 @@
+matches:
+  - triggers: ["~<	", "~</."]
+    replace: "≺"
+
+  - triggers: ["~>	", "~>/."]
+    replace: "≻"
+
+  - triggers: ["~≤	", "~≤/."]
+    replace: "≼"
+
+  - triggers: ["~≥	", "~≥/."]
+    replace: "≽"
+
+  - triggers: ["~=	", "~=/."]
+    replace: "≌"
+
+  - triggers: ["=>	", "=>/."]
+    replace: "⇒"
+
+  - triggers: ["<=	", "<=/."]
+    replace: "⇐"
+
+  - triggers: ["<=>	", "<=>/."]
+    replace: "⇔"
+
+  - triggers: ["->	", "->/."]
+    replace: "→"
+
+  - triggers: ["<-	", "<-/."]
+    replace: "←"
+
+  - triggers: ["<->	", "<->/."]
+    replace: "↔"
+
+  - triggers: ["|->	", "|->/."]
+    replace: "↦"
+
+  - triggers: ["<-|	", "<-|/."]
+    replace: "↤"
+
+  - triggers: ["||	", "||/."]
+    replace: "‖"
+
+  - triggers: ["alpha	", "alpha/."]
+    replace: "α"
+
+  - triggers: ["Alpha	", "Alpha/."]
+    replace: "Α"
+
+  - triggers: ["gamma	", "gamma/."]
+    replace: "γ"
+
+  - triggers: ["Gamma	", "Gamma/."]
+    replace: "Γ"
+
+  - triggers: ["delta	", "delta/."]
+    replace: "δ"
+
+  - triggers: ["Delta	", "Delta/."]
+    replace: "Δ"
+
+  - triggers: ["epsilon	", "epsilon/."]
+    replace: "ε"
+
+  - triggers: ["Epsilon	", "Epsilon/."]
+    replace: "Ε"
+
+  - triggers: ["beta	", "beta/."]
+    replace: "β"
+
+  - triggers: ["Beta	", "Beta/."]
+    replace: "Β"
+
+  - triggers: ["zeta	", "zeta/."]
+    replace: "ζ"
+
+  - triggers: ["Zeta	", "Zeta/."]
+    replace: "Ζ"
+
+  - triggers: ["theta	", "theta/."]
+    replace: "θ"
+
+  - triggers: ["Theta	", "Theta/."]
+    replace: "Θ"
+
+  - triggers: ["eta	", "eta/."]
+    replace: "η"
+
+  - triggers: ["Eta	", "Eta/."]
+    replace: "Η"
+
+  - triggers: ["iota	", "iota/."]
+    replace: "ι"
+
+  - triggers: ["Iota	", "Iota/."]
+    replace: "Ι"
+
+  - triggers: ["kappa	", "kappa/."]
+    replace: "κ"
+
+  - triggers: ["Kappa	", "Kappa/."]
+    replace: "Κ"
+
+  - triggers: ["lambda	", "lambda/."]
+    replace: "λ"
+
+  - triggers: ["Lambda	", "Lambda/."]
+    replace: "Λ"
+
+  - triggers: ["mu	", "mu/."]
+    replace: "μ"
+
+  - triggers: ["Mu	", "Mu/."]
+    replace: "Μ"
+
+  - triggers: ["nu	", "nu/."]
+    replace: "ν"
+
+  - triggers: ["Nu	", "Nu/."]
+    replace: "Ν"
+
+  - triggers: ["xi	", "xi/."]
+    replace: "ξ"
+
+  - triggers: ["Xi	", "Xi/."]
+    replace: "Ξ"
+
+  - triggers: ["omicron	", "omicron/."]
+    replace: "ο"
+
+  - triggers: ["Omicron	", "Omicron/."]
+    replace: "Ο"
+
+  - triggers: ["pi	", "pi/."]
+    replace: "π"
+
+  - triggers: ["Pi	", "Pi/."]
+    replace: "Π"
+
+  - triggers: ["rho	", "rho/."]
+    replace: "ρ"
+
+  - triggers: ["Rho	", "Rho/."]
+    replace: "Ρ"
+
+  - triggers: ["sigma	", "sigma/."]
+    replace: "σ"
+
+  - triggers: ["Sigma	", "Sigma/."]
+    replace: "Σ"
+
+  - triggers: ["tau	", "tau/."]
+    replace: "τ"
+
+  - triggers: ["Tau	", "Tau/."]
+    replace: "Τ"
+
+  - triggers: ["upsilon	", "upsilon/."]
+    replace: "υ"
+
+  - triggers: ["Upsilon	", "Upsilon/."]
+    replace: "Υ"
+
+  - triggers: ["phi	", "phi/."]
+    replace: "φ"
+
+  - triggers: ["Phi	", "Phi/."]
+    replace: "Φ"
+
+  - triggers: ["chi	", "chi/."]
+    replace: "χ"
+
+  - triggers: ["Chi	", "Chi/."]
+    replace: "Χ"
+
+  - triggers: ["psi	", "psi/."]
+    replace: "ψ"
+
+  - triggers: ["Psi	", "Psi/."]
+    replace: "Ψ"
+
+  - triggers: ["omega	", "omega/."]
+    replace: "ω"
+
+  - triggers: ["Omega	", "Omega/."]
+    replace: "Ω"
+
+  - triggers: ["aleph	", "aleph/."]
+    replace: "א"
+
+  - triggers: ["alef	", "alef/."]
+    replace: "א"
+
+  - triggers: ["\\a	", "\\a/."]
+    replace: "𝕒"
+
+  - triggers: ["\\b	", "\\b/."]
+    replace: "𝕓"
+
+  - triggers: ["\\c	", "\\c/."]
+    replace: "𝕔"
+
+  - triggers: ["\\d	", "\\d/."]
+    replace: "𝕕"
+
+  - triggers: ["\\e	", "\\e/."]
+    replace: "𝕖"
+
+  - triggers: ["\\f	", "\\f/."]
+    replace: "𝕗"
+
+  - triggers: ["\\g	", "\\g/."]
+    replace: "𝕘"
+
+  - triggers: ["\\h	", "\\h/."]
+    replace: "𝕙"
+
+  - triggers: ["\\i	", "\\i/."]
+    replace: "𝕚"
+
+  - triggers: ["\\j	", "\\j/."]
+    replace: "𝕛"
+
+  - triggers: ["\\k	", "\\k/."]
+    replace: "𝕜"
+
+  - triggers: ["\\l	", "\\l/."]
+    replace: "𝕝"
+
+  - triggers: ["\\m	", "\\m/."]
+    replace: "𝕞"
+
+  - triggers: ["\\n	", "\\n/."]
+    replace: "𝕟"
+
+  - triggers: ["\\o	", "\\o/."]
+    replace: "𝕠"
+
+  - triggers: ["\\p	", "\\p/."]
+    replace: "𝕡"
+
+  - triggers: ["\\q	", "\\q/."]
+    replace: "𝕢"
+
+  - triggers: ["\\r	", "\\r/."]
+    replace: "𝕣"
+
+  - triggers: ["\\s	", "\\s/."]
+    replace: "𝕤"
+
+  - triggers: ["\\t	", "\\t/."]
+    replace: "𝕥"
+
+  - triggers: ["\\u	", "\\u/."]
+    replace: "𝕦"
+
+  - triggers: ["\\v	", "\\v/."]
+    replace: "𝕧"
+
+  - triggers: ["\\w	", "\\w/."]
+    replace: "𝕨"
+
+  - triggers: ["\\x	", "\\x/."]
+    replace: "𝕩"
+
+  - triggers: ["\\y	", "\\y/."]
+    replace: "𝕪"
+
+  - triggers: ["\\z	", "\\z/."]
+    replace: "𝕫"
+
+  - triggers: ["\\A	", "\\A/."]
+    replace: "𝔸"
+
+  - triggers: ["\\B	", "\\B/."]
+    replace: "𝔹"
+
+  - triggers: ["\\C	", "\\C/."]
+    replace: "ℂ"
+
+  - triggers: ["\\D	", "\\D/."]
+    replace: "𝔻"
+
+  - triggers: ["\\E	", "\\E/."]
+    replace: "𝔼"
+
+  - triggers: ["\\F	", "\\F/."]
+    replace: "𝔽"
+
+  - triggers: ["\\G	", "\\G/."]
+    replace: "𝔾"
+
+  - triggers: ["\\H	", "\\H/."]
+    replace: "ℍ"
+
+  - triggers: ["\\I	", "\\I/."]
+    replace: "𝕀"
+
+  - triggers: ["\\J	", "\\J/."]
+    replace: "𝕁"
+
+  - triggers: ["\\K	", "\\K/."]
+    replace: "𝕂"
+
+  - triggers: ["\\L	", "\\L/."]
+    replace: "𝕃"
+
+  - triggers: ["\\M	", "\\M/."]
+    replace: "𝕄"
+
+  - triggers: ["\\N	", "\\N/."]
+    replace: "ℕ"
+
+  - triggers: ["\\O	", "\\O/."]
+    replace: "𝕆"
+
+  - triggers: ["\\P	", "\\P/."]
+    replace: "ℙ"
+
+  - triggers: ["\\Q	", "\\Q/."]
+    replace: "ℚ"
+
+  - triggers: ["\\R	", "\\R/."]
+    replace: "ℝ"
+
+  - triggers: ["\\S	", "\\S/."]
+    replace: "𝕊"
+
+  - triggers: ["\\T	", "\\T/."]
+    replace: "𝕋"
+
+  - triggers: ["\\U	", "\\U/."]
+    replace: "𝕌"
+
+  - triggers: ["\\V	", "\\V/."]
+    replace: "𝕍"
+
+  - triggers: ["\\W	", "\\W/."]
+    replace: "𝕎"
+
+  - triggers: ["\\X	", "\\X/."]
+    replace: "𝕏"
+
+  - triggers: ["\\Y	", "\\Y/."]
+    replace: "𝕐"
+
+  - triggers: ["\\Z	", "\\Z/."]
+    replace: "ℤ"
+
+  - triggers: ["A.c	", "A.c/."]
+    replace: "𝒜"
+
+  - triggers: ["a.c	", "a.c/."]
+    replace: "𝒶"
+
+  - triggers: ["B.c	", "B.c/."]
+    replace: "ℬ"
+
+  - triggers: ["b.c	", "b.c/."]
+    replace: "𝒷"
+
+  - triggers: ["C.c	", "C.c/."]
+    replace: "𝒞"
+
+  - triggers: ["c.c	", "c.c/."]
+    replace: "𝒸"
+
+  - triggers: ["D.c	", "D.c/."]
+    replace: "𝒟"
+
+  - triggers: ["d.c	", "d.c/."]
+    replace: "𝒹"
+
+  - triggers: ["E.c	", "E.c/."]
+    replace: "ℰ"
+
+  - triggers: ["e.c	", "e.c/."]
+    replace: "ℯ"
+
+  - triggers: ["F.c	", "F.c/."]
+    replace: "ℱ"
+
+  - triggers: ["f.c	", "f.c/."]
+    replace: "𝒻"
+
+  - triggers: ["G.c	", "G.c/."]
+    replace: "𝒢"
+
+  - triggers: ["g.c	", "g.c/."]
+    replace: "ℊ"
+
+  - triggers: ["H.c	", "H.c/."]
+    replace: "ℋ"
+
+  - triggers: ["h.c	", "h.c/."]
+    replace: "𝒽"
+
+  - triggers: ["I.c	", "I.c/."]
+    replace: "ℐ"
+
+  - triggers: ["i.c	", "i.c/."]
+    replace: "𝒾"
+
+  - triggers: ["J.c	", "J.c/."]
+    replace: "𝒥"
+
+  - triggers: ["j.c	", "j.c/."]
+    replace: "𝒿"
+
+  - triggers: ["K.c	", "K.c/."]
+    replace: "𝒦"
+
+  - triggers: ["k.c	", "k.c/."]
+    replace: "𝓀"
+
+  - triggers: ["L.c	", "L.c/."]
+    replace: "ℒ"
+
+  - triggers: ["l.c	", "l.c/."]
+    replace: "𝓁"
+
+  - triggers: ["M.c	", "M.c/."]
+    replace: "ℳ"
+
+  - triggers: ["m.c	", "m.c/."]
+    replace: "𝓂"
+
+  - triggers: ["N.c	", "N.c/."]
+    replace: "𝒩"
+
+  - triggers: ["n.c	", "n.c/."]
+    replace: "𝓃"
+
+  - triggers: ["O.c	", "O.c/."]
+    replace: "𝒪"
+
+  - triggers: ["o.c	", "o.c/."]
+    replace: "ℴ"
+
+  - triggers: ["P.c	", "P.c/."]
+    replace: "𝒫"
+
+  - triggers: ["p.c	", "p.c/."]
+    replace: "𝓅"
+
+  - triggers: ["Q.c	", "Q.c/."]
+    replace: "𝒬"
+
+  - triggers: ["q.c	", "q.c/."]
+    replace: "𝓆"
+
+  - triggers: ["R.c	", "R.c/."]
+    replace: "ℛ"
+
+  - triggers: ["r.c	", "r.c/."]
+    replace: "𝓇"
+
+  - triggers: ["S.c	", "S.c/."]
+    replace: "𝒮"
+
+  - triggers: ["s.c	", "s.c/."]
+    replace: "𝓈"
+
+  - triggers: ["T.c	", "T.c/."]
+    replace: "𝒯"
+
+  - triggers: ["t.c	", "t.c/."]
+    replace: "𝓉"
+
+  - triggers: ["U.c	", "U.c/."]
+    replace: "𝒰"
+
+  - triggers: ["u.c	", "u.c/."]
+    replace: "𝓊"
+
+  - triggers: ["V.c	", "V.c/."]
+    replace: "𝒱"
+
+  - triggers: ["v.c	", "v.c/."]
+    replace: "𝓋"
+
+  - triggers: ["W.c	", "W.c/."]
+    replace: "𝒲"
+
+  - triggers: ["w.c	", "w.c/."]
+    replace: "𝓌"
+
+  - triggers: ["X.c	", "X.c/."]
+    replace: "𝒳"
+
+  - triggers: ["x.c	", "x.c/."]
+    replace: "𝓍"
+
+  - triggers: ["Y.c	", "Y.c/."]
+    replace: "𝒴"
+
+  - triggers: ["y.c	", "y.c/."]
+    replace: "𝓎"
+
+  - triggers: ["Z.c	", "Z.c/."]
+    replace: "𝒵"
+
+  - triggers: ["z.c	", "z.c/."]
+    replace: "𝓏"
+
+  - triggers: ["A.f	", "A.f/."]
+    replace: "𝔄"
+
+  - triggers: ["a.f	", "a.f/."]
+    replace: "𝔞"
+
+  - triggers: ["B.f	", "B.f/."]
+    replace: "𝔅"
+
+  - triggers: ["b.f	", "b.f/."]
+    replace: "𝔟"
+
+  - triggers: ["C.f	", "C.f/."]
+    replace: "ℭ"
+
+  - triggers: ["c.f	", "c.f/."]
+    replace: "𝔠"
+
+  - triggers: ["D.f	", "D.f/."]
+    replace: "𝔇"
+
+  - triggers: ["d.f	", "d.f/."]
+    replace: "𝔡"
+
+  - triggers: ["E.f	", "E.f/."]
+    replace: "𝔈"
+
+  - triggers: ["e.f	", "e.f/."]
+    replace: "𝔢"
+
+  - triggers: ["F.f	", "F.f/."]
+    replace: "𝔉"
+
+  - triggers: ["f.f	", "f.f/."]
+    replace: "𝔣"
+
+  - triggers: ["G.f	", "G.f/."]
+    replace: "𝔊"
+
+  - triggers: ["g.f	", "g.f/."]
+    replace: "𝔤"
+
+  - triggers: ["H.f	", "H.f/."]
+    replace: "ℌ"
+
+  - triggers: ["h.f	", "h.f/."]
+    replace: "𝔥"
+
+  - triggers: ["I.f	", "I.f/."]
+    replace: "ℑ"
+
+  - triggers: ["i.f	", "i.f/."]
+    replace: "𝔦"
+
+  - triggers: ["J.f	", "J.f/."]
+    replace: "𝔍"
+
+  - triggers: ["j.f	", "j.f/."]
+    replace: "𝔧"
+
+  - triggers: ["K.f	", "K.f/."]
+    replace: "𝔎"
+
+  - triggers: ["k.f	", "k.f/."]
+    replace: "𝔨"
+
+  - triggers: ["L.f	", "L.f/."]
+    replace: "𝔏"
+
+  - triggers: ["l.f	", "l.f/."]
+    replace: "𝔩"
+
+  - triggers: ["M.f	", "M.f/."]
+    replace: "𝔐"
+
+  - triggers: ["m.f	", "m.f/."]
+    replace: "𝔪"
+
+  - triggers: ["N.f	", "N.f/."]
+    replace: "𝔑"
+
+  - triggers: ["n.f	", "n.f/."]
+    replace: "𝔫"
+
+  - triggers: ["O.f	", "O.f/."]
+    replace: "𝔒"
+
+  - triggers: ["o.f	", "o.f/."]
+    replace: "𝔬"
+
+  - triggers: ["P.f	", "P.f/."]
+    replace: "𝔓"
+
+  - triggers: ["p.f	", "p.f/."]
+    replace: "𝔭"
+
+  - triggers: ["Q.f	", "Q.f/."]
+    replace: "𝔔"
+
+  - triggers: ["q.f	", "q.f/."]
+    replace: "𝔮"
+
+  - triggers: ["R.f	", "R.f/."]
+    replace: "ℜ"
+
+  - triggers: ["r.f	", "r.f/."]
+    replace: "𝔯"
+
+  - triggers: ["S.f	", "S.f/."]
+    replace: "𝔖"
+
+  - triggers: ["s.f	", "s.f/."]
+    replace: "𝔰"
+
+  - triggers: ["T.f	", "T.f/."]
+    replace: "𝔗"
+
+  - triggers: ["t.f	", "t.f/."]
+    replace: "𝔱"
+
+  - triggers: ["U.f	", "U.f/."]
+    replace: "𝔘"
+
+  - triggers: ["u.f	", "u.f/."]
+    replace: "𝔲"
+
+  - triggers: ["V.f	", "V.f/."]
+    replace: "𝔙"
+
+  - triggers: ["v.f	", "v.f/."]
+    replace: "𝔳"
+
+  - triggers: ["W.f	", "W.f/."]
+    replace: "𝔚"
+
+  - triggers: ["w.f	", "w.f/."]
+    replace: "𝔴"
+
+  - triggers: ["X.f	", "X.f/."]
+    replace: "𝔛"
+
+  - triggers: ["x.f	", "x.f/."]
+    replace: "𝔵"
+
+  - triggers: ["Y.f	", "Y.f/."]
+    replace: "𝔜"
+
+  - triggers: ["y.f	", "y.f/."]
+    replace: "𝔶"
+
+  - triggers: ["Z.f	", "Z.f/."]
+    replace: "ℨ"
+
+  - triggers: ["z.f	", "z.f/."]
+    replace: "𝔷"
+
+  - triggers: ["female	", "female/."]
+    replace: "♀"
+
+  - triggers: ["male	", "male/."]
+    replace: "♂"
+
+  - triggers: ["Sun	", "Sun/."]
+    replace: "☉"
+
+  - triggers: ["Mercury	", "Mercury/."]
+    replace: "☿"
+
+  - triggers: ["Venus	", "Venus/."]
+    replace: "♀"
+
+  - triggers: ["Earth	", "Earth/."]
+    replace: "♁"
+
+  - triggers: ["Moon	", "Moon/."]
+    replace: "☾"
+
+  - triggers: ["Mars	", "Mars/."]
+    replace: "♂"
+
+  - triggers: ["Jupiter	", "Jupiter/."]
+    replace: "♃"
+
+  - triggers: ["Saturn	", "Saturn/."]
+    replace: "♄"
+
+  - triggers: ["Uranus	", "Uranus/."]
+    replace: "⛢"
+
+  - triggers: ["Neptune	", "Neptune/."]
+    replace: "♆"

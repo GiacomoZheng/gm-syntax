@@ -24,7 +24,7 @@
 
 "=>" = "⇒"
 "<=" = "⇐"
-"<=>"	= "⇔"
+"<=>" = "⇔"
 "->" = "→"
 "<-" = "←"
 "<->" = "↔"
@@ -32,6 +32,9 @@
 "<-|" = "↤"
 
 "||" = "‖"
+
+"<|" = "⟨"
+"|>" = "⟩"
 
 _comment1 = """
 ; 右ctrl +
@@ -68,42 +71,67 @@ _comment1 = """
 ;
 """
 
-# ? changing some letter to be capital will change the output to be capital
+# Greek alphabet
+
 "alpha" = "α"
+"Alpha" = "Α"
 
 "gamma" = "γ"
+"Gamma" = "Γ"
 "delta" = "δ"
+"Delta" = "Δ"
 "epsilon" = "ε"
+"Epsilon" = "Ε"
 
 # beta, theta and zeta need to be above the eta
 "beta" = "β"
+"Beta" = "Β"
 "zeta" = "ζ"
+"Zeta" = "Ζ"
 "theta" = "θ"
+"Theta" = "Θ"
 "eta" = "η"
+"Eta" = "Η"
 
 "iota" = "ι"
+"Iota" = "Ι"
 "kappa" = "κ"
+"Kappa" = "Κ"
 "lambda" = "λ"
+"Lambda" = "Λ"
 "mu" = "μ"
+"Mu" = "Μ"
 "nu" = "ν"
+"Nu" = "Ν"
 "xi" = "ξ"
+"Xi" = "Ξ"
 "omicron" = "ο"
+"Omicron" = "Ο"
 "pi" = "π"
+"Pi" = "Π"
 "rho" = "ρ"
-"sigma" = "σ"
+"Rho" = "Ρ"
+"sigma" = "σ" # or ς
+"Sigma" = "Σ"
 "tau" = "τ"
+"Tau" = "Τ"
 "upsilon" = "υ"
+"Upsilon" = "Υ"
 "phi" = "φ"
+"Phi" = "Φ"
 "chi" = "χ"
+"Chi" = "Χ"
 "psi" = "ψ"
+"Psi" = "Ψ"
 "omega" = "ω"
+"Omega" = "Ω"
 
 # 希伯来文 &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
 
 "aleph" = "א" # 亦写作
 "alef" = "א"
 
-# 双线字体, lua 会报错大部分
+# 双线字体
 "\\a" = "𝕒"
 "\\b" = "𝕓"
 "\\c" = "𝕔"
