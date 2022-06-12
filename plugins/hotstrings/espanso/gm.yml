@@ -8,11 +8,35 @@ matches:
   - triggers: ["~≤	", "~≤/."]
     replace: "≼"
 
+  - triggers: ["~<=	", "~<=/."]
+    replace: "≼"
+
   - triggers: ["~≥	", "~≥/."]
+    replace: "≽"
+
+  - triggers: ["~>=	", "~>=/."]
     replace: "≽"
 
   - triggers: ["~=	", "~=/."]
     replace: "≌"
+
+  - triggers: ["(-	", "(-/."]
+    replace: "∈"
+
+  - triggers: ["-)	", "-)/."]
+    replace: "∋"
+
+  - triggers: ["(=	", "(=/."]
+    replace: "⊆"
+
+  - triggers: ["(	", "(/."]
+    replace: "⊂"
+
+  - triggers: [")=	", ")=/."]
+    replace: "⊇"
+
+  - triggers: [")	", ")/."]
+    replace: "⊃"
 
   - triggers: ["=>	", "=>/."]
     replace: "⇒"
