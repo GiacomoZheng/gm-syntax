@@ -1,3 +1,6 @@
 [submodule "vscode-gm"]
 	path = vscode-gm
 	url = https://github.com/GiacomoZheng/vscode-gm.git
+[submodule "pygments-gm"]
+	path = pygments-gm
+	url = https://github.com/GiacomoZheng/pygments-gm.git
