@@ -3,5 +3,5 @@
 	url = https://github.com/GiacomoZheng/vscode-gm.git
 [submodule "pygments_gm"]
 	path = pygments_gm
-	url = https://github.com/GiacomoZheng/pygments_gm.git
+	url = https://github.com/GiacomoZheng/pygments-gm.git
 
