@@ -1,6 +1,11 @@
 # option L --> ¬
-# option 8 --> •
+# option shift 3 --> ‹
+# option shift 4 --> ›
 # option 5 --> ∞
+# option 8 --> •
+# option shift 8 --> °
+# option shift 9 --> ·
+
 # option < --> ≤
 # option > --> ≥
 # option = --> ≠
@@ -13,17 +18,20 @@
 # "<=" = "≤"
 # ">=" = "≥"
 "~≤" = "≼" # only for mac
-"~<=" = "≼"
+# "~<=" = "≼"
 "~≥" = "≽" # only for mac
-"~>=" = "≽"
+# "~>=" = "≽"
 "~=" = "≌"
+"~_" = "≃"
 
 # # 数学符号
 "(-" = "∈"
 "-)" = "∋"
 "(=" = "⊆"
+"(_" = "⊆"
 "(" = "⊂"
 ")=" = "⊇"
+")_" = "⊇"
 ")" = "⊃"
 
 "=>" = "⇒"
@@ -87,7 +95,7 @@ _comment1 = """
 "epsilon" = "ε"
 "Epsilon" = "Ε"
 
-# beta, theta and zeta need to be above the eta
+# beta, theta and zeta may need to be above the eta
 "beta" = "β"
 "Beta" = "Β"
 "zeta" = "ζ"
@@ -366,9 +374,9 @@ _comment2 = """
 """
 
 # 杂项
-"female" = "♀"
+"Female" = "♀"
 # the female must be in front of male for ahk
-"male" = "♂"
+"Male" = "♂"
 
 "Sun" = "☉"
 "Mercury" = "☿"
